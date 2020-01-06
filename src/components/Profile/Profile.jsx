@@ -1,18 +1,19 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import s from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
   return (
-    <div className={s.content}>
+    <div>
       <div>
         <img
-          src="https://million-wallpapers.ru/wallpapers/1/41/364103651406617/tropicheskij-ostrov-pejzazh.jpg"
+          src="https://trikky.ru/wp-content/blogs.dir/1/files/2013/08/beautyisland_3.jpg"
           alt=""
         />
       </div>
       <div>description</div>
-      <MyPosts />
+      <MyPosts hey="yo" />
     </div>
   );
 };
